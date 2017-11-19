@@ -1,0 +1,29 @@
+start
+hungry(Abc)::
+	if(Abc&false->true&!Abc|false<->true) begin
+		write(Abc)
+		#%This Comment%#
+	end else begin
+		read(Abc)
+		#%   This Comment%#
+	end
+	return Abc & !Abc
+;;
+stop go
+if(Abc&false->true&!Abc|false<->true) begin
+	while(Abc&false->true&!Abc|false<->!true) begin
+		Berat = hungry(Berat)
+		#%Comment   This IS A %#
+	end
+end else begin
+	Berat = false \ Berat
+end
+
+read(Ali)
+write(Abc&false->true&!Abc|false<->true     -> Ali   )
+#%   This Comment%#
+Berat = { 1, 2, false, alibaba}
+Var = Berat[2]
+write(Var)
+
+finish
