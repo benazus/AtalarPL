@@ -14,7 +14,7 @@ Atalar Programming Language(APL) is an enchanted logical programming language de
 - predicate definitions as functions
 - start point for execution (e.g, "start" if there are custom predicates, "go" if there is none)
 
-Even though this was a course project, it is my OWN work and belongs to me & ONLY me (due to the non-existing support from my teammates)
+Even though this was a course project, this version is my own work.
 
 In this directory, the parser for APL is provided. For more information, you can contact me here: beratbbicer@gmail.com
 
